@@ -1,0 +1,14 @@
+---
+
+:backends:
+  - yaml
+  
+:hierarchy:
+  - defaults
+  - "%{environment}"
+  - global
+
+:logger: console
+
+:yaml:
+  :datadir: "hiera-data"
