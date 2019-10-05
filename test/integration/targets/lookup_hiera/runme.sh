@@ -12,5 +12,3 @@ export ANSIBLE_HIERA_CFG="$(PWD)/hiera.yaml"
 export ANSIBLE_LOOKUP_PLUGINS="$(PWD)/../../../../lib/ansible/plugins/lookup"
 
 ansible-playbook main.yml -v "$@"
-
-# pip3 install voluptuous PyYAML cryptography jinja2
